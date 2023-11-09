@@ -1,0 +1,113 @@
+
+body {
+    background-color: #272829;
+    color:rgb(243, 240, 247)
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 130px;
+    border: 1px solid whitesmoke;
+    background-color: #333536;
+    color:rgb(243, 240, 247);
+    margin: 15px;
+    padding: 0 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+.btn {
+    background-color: transparent;
+    width: max-content;
+    margin: 5px;
+    padding: 10px;
+    color:rgb(243, 240, 247);
+    border: 1px solid whitesmoke;
+    /* flex: 0; */
+}
+
+.btnContainer {
+    display: flex;
+    flex: 1;
+}
+
+.currExSection {
+    background-color: #333536;
+    height: 250px;
+    border: 1px solid whitesmoke;
+    color:rgb(243, 240, 247);
+    margin: 15px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color:rgb(243, 240, 247);
+    height: 25px;
+    text-align: center;
+    width: 69%;
+}
+
+.resultDiv {
+    border: 1px solid whitesmoke;
+    color:rgb(243, 240, 247);
+    height: 25px;
+    text-align: center;
+    width: 70%;
+    margin-top: 15%;
+}
+.convertSection {
+    display: grid;
+    grid-template-columns: 37% 26% 37% ;
+}
+.label {
+    padding-bottom: 5px;
+}
+.convertBtn {
+    background-color: #044284;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.currLabel {
+    padding: 5px;
+    margin-left: 13px;
+    font-weight: 700;
+}
+
+.detDiv {
+    border: 1px solid whitesmoke;
+    color:rgb(243, 240, 247);
+    height: 45px;
+    text-align: center;
+    padding-top: 20px;
+}
+.moreDet {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.cardSec {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 32.5%);
+    gap: 20px;
+}
+
+.card {
+    height: 150px;
+    background-color: #333536;
+    border: 1px solid whitesmoke;
+}
